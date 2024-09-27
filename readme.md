@@ -1,4 +1,4 @@
-# ATTRIBUTE-GUIDED VISUAL REPROGRAMMING FOR VISION-LANGUAGE MODELS
+# Attribute-based Visual Reprogramming for CLIP
 This is the implementation of our paper submitted to ICLR2025.
 
 ## Installation
