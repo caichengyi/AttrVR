@@ -7,7 +7,7 @@ This is the implementation of our paper submitted to ICLR2025.
     pip install -r requirements.txt
 
 ## Dataset Preparation
-To implement the results, please follow Appendix A.2.1 to download the datasets and modify `DOWNSTREAM_PATH = ""` in `cfg.py`.
+To implement the results, please follow Appendix A.2.2 to download the datasets and modify `DOWNSTREAM_PATH = ""` in `cfg.py`.
 
 ## Step 1: Generating DesAttr and DistAttr
 Please first enter your API Key in `generate_attributes.py`, then run the code:
