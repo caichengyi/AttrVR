@@ -4,7 +4,7 @@ This is the implementation of our paper submitted to ICLR2025.
 ## Installation
     conda create -n reprogram
     conda activate reprogram
-    pip install -r requirement.txt
+    pip install -r requirements.txt
 
 ## Dataset Preparation
 To implement the results, please follow Appendix A.2.1 to download the datasets and modify `DOWNSTREAM_PATH = ""` in `cfg.py`.
