@@ -1,4 +1,4 @@
-# Attribute-based Visual Reprogramming for CLIP
+# Attribute-based Visual Reprogramming for Image Classification with CLIP
 This is the implementation of our paper submitted to ICLR2025.
 
 ## Installation
