@@ -61,8 +61,8 @@ if __name__ == '__main__':
     trainloader, testloader, classes = build_loader(args.dataset, DOWNSTREAM_PATH, train_process, test_process, batch_size=bs, shot=args.shot)
 
     # Loading Attributes and Text Embeddings
-    txt_emb_desattr = clip_attr_classifier(classes, model, 'attributes/' + args.dataset + '_des.json', num_attr=args.num_attr)
-    txt_emb_distattr = clip_attr_classifier(classes, model, 'attributes/' + args.dataset + '_dist.json', num_attr=args.num_attr)
+    txt_emb_desattr = clip_attr_classifier(classes, model, 'attributes/gpt3/' + args.dataset + '_des.json', num_attr=args.num_attr)
+    txt_emb_distattr = clip_attr_classifier(classes, model, 'attributes/gpt3/' + args.dataset + '_dist.json', num_attr=args.num_attr)
 
     # Repurposing CLIP for Downstream Classification
     def network(x):
