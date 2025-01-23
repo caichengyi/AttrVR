@@ -19,7 +19,7 @@ task_name = {
 	'ucf101': 'action'
 }
 openai.api_key = ""
-json_name = 'attributes/' + dataset_name + '_dist.json'
+json_name = 'attributes/gpt3/' + dataset_name + '_dist.json'
 _, _, category_list, _ = build_loader(dataset_name, DOWNSTREAM_PATH)
 
 all_responses = {}
@@ -66,7 +66,7 @@ with open(json_name, 'w') as f:
 Generating DesAttr
 '''
 
-json_name = 'attributes/' + dataset_name + '_des.json'
+json_name = 'attributes/gpt3/' + dataset_name + '_des.json'
 for category in tqdm(category_list):
 	categoryname = category.replace('.', '')
 	if category[0] in vowel_list:
