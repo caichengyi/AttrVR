@@ -3,10 +3,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 [![Static Badge](https://img.shields.io/badge/View-Slides-brightgreen)]()
 [![Static Badge](https://img.shields.io/badge/View-Poster-purple)]()
-[![Static Badge](https://img.shields.io/badge/Pub-ICLR'25-red)]()
+[![Static Badge](https://img.shields.io/badge/Pub-ICLR'25-red)](https://arxiv.org/abs/2501.13982)
 
 This repository is the official PyTorch implementation of the **ICLR 2025** paper:
-[Attribute-based Visual Reprogramming for Image Classification with CLIP](),
+[Attribute-based Visual Reprogramming for Image Classification with CLIP](https://arxiv.org/abs/2501.13982),
 authored by Chengyi Cai, Zesheng Ye, Lei Feng, Jianzhong Qi, and Feng Liu.
 
 **Abstract:**
